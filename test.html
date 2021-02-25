@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>HTML Test Webpage</title>
+
+<style>
+
+h1 {text-align: center;}
+
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+
+*{
+  font-size: : 50px;
+}
+
+</style>
+
+</head>
+<!-- Set background color -->
+<body style="background-color:powderblue;">
+
+<!-- Headings -->
+<h1 style="background-color:powderblue;color:red;font-family:verdana;font-size:200%;">This is a Colorful Heading in the Center</h1>
+<h3>This is a smaller Heading</h3>
+<p>This is a <br> paragraph with a break.</p>
+
+<p>Below this pargraph we have a horizontal line which allows to seperate items or sections.<p>
+<hr>
+
+<!-- Headings/Text Style -->
+<p style="background-color:tomato;color:blue;font-family:courier;font-size:120%;">We can change everything about the text: font, font color, font family, background color, size etc.</p>
+
+<hr>
+
+<h2>The border-style Property</h2>
+<p>This property specifies what kind of border to display:</p>
+
+<p class="dashed">A dashed border.</p>
+<p class="solid">A solid border.</p>
+<p class="double">A double border.</p>
+
+<p>Click <a href="https://www.w3schools.com/css/css_border.asp">here </a> to learn more about borders in HTML. </p>
+
+<!-- Poem style -->
+<hr>
+
+<h3>We can also create a poem style section just like this: </h3>
+<pre>
+  My Bonnie lies over the ocean.
+
+  My Bonnie lies over the sea.
+
+  My Bonnie lies over the ocean.
+
+  Oh, bring back my Bonnie to me.
+</pre>
+
+<!-- Text Formatting -->
+<hr>
+<h3>We can format text in any way we want: </h3>
+
+<p><em>This text is emphasized.</em></p>
+<p><i>This text is italic</i></p>
+<p><strong>This text is important!</strong></p>
+<p><b>This text is bold</b></p>
+
+
+<template>
+      <h2>Hidden content (after page loaded).</h2>
+    </template>
+    
+    <video width="640" height="480" position= position:relative; src="https://archive.org/download/Popeye_forPresident/Popeye_forPresident_512kb.mp4" controls>
+      <track kind="subtitles" src="subtitles_de.vtt" srclang="de">
+      <track kind="subtitles" src="subtitles_en.vtt" srclang="en">
+      <track kind="subtitles" src="subtitles_ja.vtt" srclang="ja">
+      Sorry, your browser doesn't support HTML5 <code>video</code>, but you can
+      download this video from the <a href="https://archive.org/details/Popeye_forPresident" target="_blank">Internet Archive</a>.
+    </video>
+
+    <object data="flashmovie.swf" width="600" height="800" type="application/x-shockwave-flash">
+    Please install the Shockwave plugin to watch this movie.
+    </object>
+<!-- Images & Links -->
+<!-- Do not display this image at the moment
+<img border="0" src="pic_trulli.jpg" alt="Trulli">
+-->
+
+<!-- Link to email address -->
+
+<br><br><br>
+<a href="mailto:someone@example.com">Click here to send email</a>
+
+
+
+<br><br><br>
+
+<!-- HTML Table -->
+<table style="width:20%">
+  <caption>This is an HTML Table</caption>
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>$100</td>
+  </tr>
+  <tr>
+    <td>February</td>
+    <td>$50</td>
+  </tr>
+</table>
+
+<br><br>
+
+<!-- Litsts -->
+
+
+<h2>Some Javascript</h2>
+
+<p>JavaScript can change HTML attribute values.</p>
+
+<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+
+<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+
+<img id="myImage" src="pic_bulboff.gif" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
+
+
+<br><br><br>
+
+<form>
+     <fieldset>
+      <legend>Personal Information</legend>
+      <label for="name">Name</label><br>
+      <input name="name" id="name"><br>
+      <label for="dob">Date of Birth<label><br>
+      <input name="dob" id="dob" type="date">
+     </fieldset>
+    </form>
+
+    <br><br><br>
+
+</body>
+</html>
